@@ -1,0 +1,122 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background: #2193b0;  
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0); 
+    background: linear-gradient(to top, #6dd5ed, #2193b0); 
+    }
+.location,.temperature{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    width: 50%;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+}
+p{
+    margin: 2.5px 10px;
+    font-size: 22px;
+}
+/*.temperature-description{
+}*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 30vh;
+    width: 40%;
+}
+.timezone-location{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    min-width: 40%;
+}
+.temperature-description{
+    margin-top: 25px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    min-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    min-width:70%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto','sans-serif';
+    box-shadow: 0 4px rgba( 0, 0, 255, 0.2);
+}
+input:focus{
+    outline: none;
+}
+.ikona{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:860px){
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 20vh;
+    }
+    .icon {
+        margin-top: 10px;
+    }
+    p{
+        margin: 40px 0 0 0;
+    }
+}
