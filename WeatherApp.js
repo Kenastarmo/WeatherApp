@@ -5,7 +5,6 @@ window.addEventListener('load',()=>{
     async function getWeatherByLocation(location){
         const response = await fetch(urlAPI(location));
         const resData = await response.json();
-        //console.log(resData,ConvertKelvinToCelsius(resData.main.temp));
 
         addWeatherToWebpage(resData);
         addDescription(resData);

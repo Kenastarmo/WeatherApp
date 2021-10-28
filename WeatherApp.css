@@ -1,41 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-    background: #2193b0;  
-    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0); 
-    background: linear-gradient(to top, #6dd5ed, #2193b0); 
-    }
-.location,.temperature{
-    display: flex;
-    justify-content: space-around;
-    height: 30vh;
-    width: 50%;
-    align-items: center;
-}
-.temperature{
-    flex-direction: column;
-}
-.degree-section{
-    display: flex;
-}
-p{
-    margin: 2.5px 10px;
-    font-size: 22px;
-}
-/*.temperature-description{
-}*/
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -48,9 +10,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0); 
+    background: linear-gradient(to top, #6dd5ed, #2193b0); 
     color: white;
 }
 .location{
